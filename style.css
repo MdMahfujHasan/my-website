@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li{
+    list-style: none;
+    margin-bottom: 55px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(49, 49, 197);
+    padding: 20px;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    color: white;
+}
+#navbar{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: -20px;
+}
+#top-section{
+    background-image: url(/bg-3.jpg);
+    background-size: 100%;
+    padding: 113px;
+}
+#name{
+    font-size: 4em;
+    font-weight: 900;
+}
+#top-section-contents{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.fab.fa-facebook-square{
+    color: #0400ff;
+}
+.fab.fa-twitter-square{
+    color: #2962ff;
+}
+.fab.fa-linkedin{
+    color: #201cff;
+}
+.fab.fa-youtube-square{
+    color: rgb(255, 36, 36);
+}
+.fab.fa-facebook-square, .fab.fa-twitter-square, .fab.fa-linkedin, .fab.fa-youtube-square{
+    font-size: 1.5em;
+}
